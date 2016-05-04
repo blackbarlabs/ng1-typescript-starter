@@ -1,5 +1,5 @@
 {
-  "name": "orderOwlSpa",
+  "name": "starterSpa",
   "version": "0.0.0",
   "dependencies": {
     "angular": "^1.5.0",
