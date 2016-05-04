@@ -1,0 +1,10 @@
+# generated directories
+.tmp/
+coverage/
+bower_components/
+dist/
+node_modules/
+typings/
+
+# editor files
+.idea/

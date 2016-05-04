@@ -1,0 +1,11 @@
+uib-tabset(
+  vertical='true'
+  type='pills'
+  active='$ctrl.activeTab'
+)
+  uib-tab(
+    ng-repeat='tab in ::$ctrl.tabs track by $index'
+    heading='{{ tab.heading }}'
+    index=$index
+    ng-click='$ctrl.setActive($index)'
+  )
